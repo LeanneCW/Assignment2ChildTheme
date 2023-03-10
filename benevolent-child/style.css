@@ -1,0 +1,93 @@
+/**
+ * Theme Name:     Benevolent Child
+ * Author:         Rara Theme
+ * Template:       benevolent
+ * Text Domain:	   benevolent-child
+ * Description:    Benevolent is an easy to use, clean modern and flexible multipurpose theme. Although the theme was designed with nonprofit organizations in mind , the theme is very versatile and can be used by any business websites, digital agency, consultancy, corporate business, freelancers, and bloggers. The theme is SEO friendly with optimized codes, which make it easy for your site to rank on Google and other search engines. Benevolent comes with several features to make user-friendly, interactive and visually stunning website. Such features include custom menu with Call to Action Button, advance full width slider, community section, Stats counter, Client Section, Banner with Call to Action Button (CTA), and social media. It has four footer area and a right sidebar and includes four custom widgets for the recent posts, popular posts, social media and the featured post. The theme is rigorously tested and optimized for speed and faster page load time and has a secure and clean code. The theme is also translation ready. Designed with visitor engagement in mind, Benevolent helps you to easily and intuitively create professional and appealing websites. Check the demo at https://rarathemes.com/previews/?theme=benevolent/, documentation at https://docs.rarathemes.com/docs/benevolent/ and get support at https://rarathemes.com/support-forum/.
+ */
+ :root {
+    --header-bg-color: white;
+    --header-txt-color: #231F20;
+    --footer-bg-color: #F1F3F4;
+    --header-hover-color: #17735a;
+    --secondary-button-color: #177359;
+    --secondary-button-color-hover:#1de0a9 ;
+    --primary-button-color: #c70077;
+    --primary-button-color-hover: #ff43b4;
+    --menu-text-color: #333;
+    }
+
+    .menu-opener[type="button" tabindex="0" role="button"]
+.post-right{
+    text-align: right;
+    float: right;
+
+}
+    /** Title*/
+    .site-header .site-branding .site-title a{
+        color: var(--primary-button-color);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .site-header .site-branding .site-title a:hover{
+        color: var(--primary-button-color-hover);
+    }
+    /** Header*/
+    #primary .post .entry-header .entry-title a{
+        color: var(--header-txt-color);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #primary .post .entry-header .entry-title a:hover{
+        color: var(--header-hover-color);
+    }
+    
+    /** Nav Text*/
+    .main-navigation a{
+         color: var(--header-bg-color);
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .main-navigation a:hover{
+        color: var(--primary-button-color);
+   }
+
+
+    /** Little Buttons*/
+    #primary .post .entry-meta a{
+        color: var(--secondary-button-color);
+    }
+    #primary .post .entry-meta a:hover{
+        color: var(--secondary-button-color-hover);
+    }
+     /** Read More Buttons*/
+    #primary .post .entry-footer .readmore{
+        color: var(--primary-button-color);
+    }
+    #primary .post .entry-footer .readmore:hover{
+        color: var(--primary-button-color-hover);
+    }
+
+    /** General Text*/
+    body, button, input, select, textarea{
+        color: var(--menu-text-color);
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    /** Highlighted Text*/
+    a{
+        color: var(--secondary-button-color); 
+        
+    }
+    a:hover{
+        color: var(--secondary-button-color-hover); 
+    }
+
+    /** Section 2 ("Recent Posts...") Text*/  
+    #secondary .widget ul li a {
+        color: var(--menu-text-color);
+    }
+    #secondary .widget ul li a:hover {
+        color: var(--primary-button-color);
+    }
+    /** Footer Text*/
+    .site-info a:hover {
+        color: var(--primary-button-color);
+    }
